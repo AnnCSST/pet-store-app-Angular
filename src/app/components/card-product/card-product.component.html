@@ -7,7 +7,12 @@
         <p>{{ product.name }}</p>
       </div>
       <figure>
-        <img src="./../../../assets/icons/bt_add_to_cart.svg" alt="" />
+				<!-- agrega el event (click) con el metodo addToCartHandler() -->
+        <img
+          src="./../../../assets/icons/bt_add_to_cart.svg"
+          alt=""
+          (click)="addToCartHandler()"
+        />
       </figure>
     </div>
     <div class="product-counter">

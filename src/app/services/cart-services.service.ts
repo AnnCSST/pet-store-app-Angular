@@ -1,4 +1,9 @@
+
 import { Injectable } from '@angular/core';
+@Injectable()
+export class MiServicio {
+  // Implementación del servicio
+}
 
 // Definimos la interfaz para representar un producto
 interface Product {

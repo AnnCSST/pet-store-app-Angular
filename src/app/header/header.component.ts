@@ -24,3 +24,4 @@ export class HeaderComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
 }
+ 

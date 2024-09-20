@@ -1,0 +1,48 @@
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #c9e4c9;
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input.form-control {
+    width: 93%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button.btn-login {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #448947, #81C784); /* Degradado en el botón */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button.btn-login:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  small {
+    color: red;
+  }
+
+  .login-title {
+    text-align: center; /* Centra el texto del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-size: 30px; /* Tamaño del texto */
+    color: #333; /* Color del texto */
+}
+
